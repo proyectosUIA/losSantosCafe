@@ -28,7 +28,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.php">
-                    <span><img src="img/favicon.jpg"></span>
+                    <span><img src="img/favicon.ico"></span>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-ex-collapse">
