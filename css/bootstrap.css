@@ -1097,14 +1097,16 @@ figure {
 img {
   vertical-align: middle;
 }
-.img-responsive,
-.thumbnail > img,
-.thumbnail a > img,
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+@media screen and (max-width: 767px){
+  .img-responsive,
+  .thumbnail > img,
+  .thumbnail a > img,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 }
 .img-rounded {
   border-radius: 5px;
@@ -6723,3 +6725,5 @@ body {
 .cover .cover-image.cover-image-fixed {
   background-attachment: fixed;
 }
+
+
